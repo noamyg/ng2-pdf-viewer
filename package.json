@@ -1,5 +1,5 @@
 {
-  "name": "ng2-pdf-viewer",
+  "name": "@noamyg/ng2-pdf-viewer",
   "version": "5.2.3",
   "description": "Angular 5+ component for rendering PDF",
   "license": "MIT",
@@ -17,7 +17,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://vadimdez@github.com/VadimDez/ng2-pdf-viewer.git"
+    "url": "git+https://noamyg@github.com/noamyg/ng2-pdf-viewer.git"
   },
   "keywords": [
     "angular",
@@ -31,17 +31,17 @@
   ],
   "author": "Vadym Yatsyuk <vadym.yatsyuk@gmail.com>",
   "bugs": {
-    "url": "https://github.com/VadimDez/ng2-pdf-viewer/issues"
+    "url": "https://github.com/noamyg/ng2-pdf-viewer/issues"
   },
-  "homepage": "https://github.com/VadimDez/ng2-pdf-viewer#readme",
+  "homepage": "https://github.com/noamyg/ng2-pdf-viewer#readme",
   "peerDependencies": {
     "@angular/core": ">=5.0.0",
-    "pdfjs-dist": "2.0.943",
+    "@noamyg/pdfjs-dist": "1.0.1",
     "@types/pdfjs-dist": "^0.1.2"
   },
   "dependencies": {
     "@types/pdfjs-dist": "^0.1.2",
-    "pdfjs-dist": "2.0.943"
+    "@noamyg/pdfjs-dist": "1.0.1"
   },
   "devDependencies": {
     "@angular/animations": "^5.2.0",
